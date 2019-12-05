@@ -4,7 +4,7 @@
 #
 Name     : pyee
 Version  : 6.0.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/1f/8e/ec9a9d07bcf316ebe8ef2c30b5c597988f5b8d324f8273c307843e63f49e/pyee-6.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/8e/ec9a9d07bcf316ebe8ef2c30b5c597988f5b8d324f8273c307843e63f49e/pyee-6.0.0.tar.gz
 Summary  : A port of node.js's EventEmitter to python.
