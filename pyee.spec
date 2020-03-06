@@ -4,7 +4,7 @@
 #
 Name     : pyee
 Version  : 6.0.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/1f/8e/ec9a9d07bcf316ebe8ef2c30b5c597988f5b8d324f8273c307843e63f49e/pyee-6.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/8e/ec9a9d07bcf316ebe8ef2c30b5c597988f5b8d324f8273c307843e63f49e/pyee-6.0.0.tar.gz
 Summary  : A port of node.js's EventEmitter to python.
@@ -18,12 +18,7 @@ BuildRequires : pytest-runner
 BuildRequires : vcversioner
 
 %description
-pyee
 ====
-.. image:: https://travis-ci.org/jfhbrook/pyee.png
-:target: https://travis-ci.org/jfhbrook/pyee
-.. image:: https://readthedocs.org/projects/pyee/badge/?version=latest
-:target: https://pyee.readthedocs.io
 
 %package python
 Summary: python components for the pyee package.
@@ -38,6 +33,7 @@ python components for the pyee package.
 Summary: python3 components for the pyee package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pyee)
 
 %description python3
 python3 components for the pyee package.
@@ -52,8 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1575554219
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583531969
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
